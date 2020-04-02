@@ -235,16 +235,19 @@ header {
 	position: relative;
 	top: -128px;
 }
-
+.section__title {
+	color: #222;
+	font-family: Georgia;
+	font-size: 48px;
+	font-weight: 700;
+}
 .main__section_take_part {
 	background-color: #0085f5;
 	background-image: linear-gradient(to top, #0091fc 0%, #00d7ff 100%);
 	padding: 40px;
 	.section__title {
 		color: white;
-		font-family: Georgia;
 		font-size: 24px;
-		font-weight: 700;
 		line-height: 30px;
 	}
 	.section__description {
@@ -292,29 +295,27 @@ header {
 i.nonico {
 	display: inline-block;
 }
+.section__separator_block {
+	margin-top: 65px;
+	margin-bottom: 45px;
+}
+.separator_title {
+	color: #0085f5;
+	// font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+}
+.separator_ico {
+	width: 55px;
+	height: 1px;
+	background-color: #0085f5;
+	vertical-align: middle;
+	margin-left: 14px;
+}
+
 .main__section_programs {
-	.section__separator_block {
-		margin-top: 65px;
-		margin-bottom: 45px;
-	}
-	.separator_title {
-		color: #0085f5;
-		// font-family: Montserrat;
-		font-size: 16px;
-		font-weight: 400;
-	}
-	.separator_ico {
-		width: 55px;
-		height: 1px;
-		background-color: #0085f5;
-		vertical-align: middle;
-		margin-left: 14px;
-	}
 	.section__title {
-		color: #222;
-		font-family: Georgia;
-		font-size: 48px;
-		font-weight: 700;
+
 		max-width: 300px;
 	}
 	.second__slider {
@@ -448,5 +449,16 @@ i.nonico {
 	}
 	.action__item:nth-child(2) {
 		top: 52.6%;
+	}
+}
+.selcenter{
+	margin: 0 auto;
+	display: block;
+}
+
+.main__section_donaters{
+	background-color: #f8f8f8;
+	.content{
+
 	}
 }
