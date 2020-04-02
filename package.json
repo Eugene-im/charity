@@ -6,7 +6,6 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "*",
-    "gulp": "^3.8.11",
     "gulp-autoprefixer": "*",
     "gulp-imagemin": "*",
     "gulp-minify-css": "*",
