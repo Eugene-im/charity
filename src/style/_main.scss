@@ -87,6 +87,24 @@ header {
 
 .header__thline {
 	position: relative;
+	.slick-arrow,
+	.slick-dots,
+	.first__slider_item_text {
+		position: absolute;
+		z-index: 2;
+	}
+	.slick-arrow {
+		bottom: 262px;
+	}
+	.slick-dots {
+		display: flex;
+		position: absolute;
+		top: 80px;
+	}
+	.slick-dots,
+	.slick-arrow {
+		right: 19.3%;
+	}
 }
 
 .header__social {
@@ -125,29 +143,12 @@ header {
 	height: 118px;
 }
 
-.slick-arrow,
-.slick-dots,
-.first__slider_item_text {
-	position: absolute;
-	z-index: 2;
-}
-.slick-arrow {
-	bottom: 262px;
-}
 .first__slider_item_text {
 	width: 100vw;
 	top: 0;
 	@include fc;
 }
-.slick-dots {
-	display: flex;
-	position: absolute;
-	top: 80px;
-}
-.slick-dots,
-.slick-arrow {
-	right: 19.3%;
-}
+
 .first__slider_text_title {
 	max-width: 706px;
 	color: white;
@@ -315,7 +316,6 @@ i.nonico {
 
 .main__section_programs {
 	.section__title {
-
 		max-width: 300px;
 	}
 	.second__slider {
@@ -369,7 +369,6 @@ i.nonico {
 	.action__item {
 		background-color: #222;
 		background-image: url(../img/img_copy.png);
-
 	}
 	.action__item:hover {
 		.action__item_content {
@@ -393,7 +392,6 @@ i.nonico {
 		bottom: 0;
 		transition: 1.2s;
 		padding: 27px;
-
 	}
 }
 .third__slider__item {
@@ -451,14 +449,55 @@ i.nonico {
 		top: 52.6%;
 	}
 }
-.selcenter{
+.selcenter {
 	margin: 0 auto;
 	display: block;
 }
 
-.main__section_donaters{
+.main__section_donaters {
 	background-color: #f8f8f8;
-	.content{
+	.content {
+	}
+	.section__action {
+		padding: 65px 0 95px 0;
+	}
+	.seventh__slider,
+	.sixth__slider {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	// .sixth__slider__item{
 
+	// }
+}
+.main__section_docs {
+	.section__text {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.section__title {
+		max-width: 300px;
+		width: 100%;
+		line-height: 60px;
+	}
+	.section__description_full {
+		max-width: 470px;
+		width: 100%;
+		color: #111;
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.section__description {
+		color: #111;
+		font-family: Georgia;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+	.eighth__slider__item .item__img img{
+		box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15), inset 0 0 7px rgba(38, 48, 55, 0.35);
 	}
 }
