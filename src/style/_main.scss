@@ -8,7 +8,8 @@
 	display: flex;
 	justify-content: center;
 }
-
+.social__subscription,
+.social__subscription nav ul,
 .header__fline .content,
 .header__sline .content,
 .header__fline .section_right,
@@ -77,15 +78,15 @@ header {
 	max-width: 600px;
 	width: 100%;
 }
-.text_for_ico {
-	display: inline-block;
-	text-transform: uppercase;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	color: #fff;
-}
 
 .header__thline {
+	.text_for_ico {
+		display: inline-block;
+		text-transform: uppercase;
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+		color: #fff;
+	}
 	position: relative;
 	.slick-arrow,
 	.slick-dots,
@@ -297,7 +298,7 @@ i.nonico {
 	display: inline-block;
 }
 .section__separator_block {
-	margin-top: 65px;
+	padding-top: 65px;
 	margin-bottom: 45px;
 }
 .separator_title {
@@ -497,7 +498,19 @@ i.nonico {
 		line-height: 25px;
 		margin-bottom: 30px;
 	}
-	.eighth__slider__item .item__img img{
+	.eighth__slider__item .item__img img {
 		box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15), inset 0 0 7px rgba(38, 48, 55, 0.35);
 	}
+}
+
+.main__section_subscription {
+	background-color: #0085f5;
+	background-image: linear-gradient(to top, #0091fc 0%, #00d7ff 100%);
+}
+.social__subscription{
+	background-color: #e8e8e8;
+	padding: 36px 43px;
+}
+.social__subscription nav ul{
+	
 }
