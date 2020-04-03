@@ -21,6 +21,7 @@ $('.eighth__slider').slick({
         dots: true,
         infinite: false,
         slidesToShow:5
+        // centerMode: true
 
 })
 
