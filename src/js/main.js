@@ -5,6 +5,12 @@ $('.first__slider').slick({
         dots: true,
         infinite: false,
 })
+$('.forth__slider').slick({
+        dots: false,
+        infinite: false,
+        slidesToShow:2
+})
+
 $('.sixth__slider').slick({
         infinite: false,
         asNavFor: '.seventh__slider',

@@ -20,7 +20,7 @@
 
 header,
 footer {
-	min-height: 100px;
+	// min-height: 100px;
 	width: 100%;
 }
 .content {
@@ -455,10 +455,10 @@ i.nonico {
 	display: block;
 }
 .main__section_volunteer {
-	.content{
+	.content {
 		padding-bottom: 140px;
 	}
-	.wrap_action{
+	.wrap_action {
 		display: flex;
 		justify-content: space-between;
 	}
@@ -467,7 +467,7 @@ i.nonico {
 		width: 100%;
 		flex: 1 1 auto;
 	}
-	.section__action{
+	.section__action {
 		max-width: 588px;
 		flex: 0 0 auto;
 	}
@@ -492,6 +492,47 @@ i.nonico {
 	.spart {
 		margin-top: 50px;
 		line-height: 30px;
+	}
+	.slick-arrow {
+		position: absolute;
+	}
+	.slick-prev {
+		top: -100px;
+	}
+	.slick-next {
+		top: -100px;
+	}
+	.forth__slider {
+		display: flex;
+	}
+	.forth__slider_item {
+		overflow: hidden;
+		min-height: 460px;
+		&:nth-child(2n) {
+			margin-top: 40px;
+		}
+	}
+	.action__item_title {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 32px;
+		text-transform: uppercase;
+		padding: 30px;
+	}
+	.forth__slider_item i.ico {
+		display: inline-block;
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		width: 49px;
+		height: 49px;
+		// background-color: #fff;
+	}
+	.action__item_img {
+		position: relative;
+		img {
+			width: 100%;
+		}
 	}
 }
 
@@ -764,5 +805,80 @@ i.nonico {
 				}
 			}
 		}
+	}
+}
+footer {
+	background: url(../img/bg.png) no-repeat center center / cover;
+}
+.footer__fline {
+	.content {
+		padding: 55px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		// min-height: 252px;
+	}
+	.description {
+		font-size: 13px;
+		line-height: 22px;
+
+		a {
+			color: #008efc;
+			font-weight: 700;
+			text-decoration: none;
+		}
+	}
+}
+
+.item__copy {
+	color: #666;
+	font-size: 14px;
+	// max-width: 535px;
+}
+.item__politic {
+	color: #666;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.footer__sline {
+	background-color: #e8e8e8;
+	.content {
+		color: #666;
+		font-size: 14px;
+		display: flex;
+		justify-content: space-between;
+		padding: 21px 0;
+	}
+}
+
+.footer__column.x1 {
+	max-width: 254px;
+	width: 100%;
+}
+.footer__column.x2 {
+	max-width: 554px;
+	width: 100%;
+}
+.footer__social{
+	display: flex;
+		justify-content: space-between;
+		align-items: center;
+	.circle{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #444;
+		&:hover{
+			background-color: #3a5a98;
+		}
+	}
+	.ico{
+		display: block;
+		fill: #fff;
+		width: 16px;
+		height: 20px;
 	}
 }
