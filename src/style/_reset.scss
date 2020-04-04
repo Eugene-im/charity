@@ -138,6 +138,7 @@ body {
 }
 .wrap {
 	flex: 1 0 auto;
+	overflow: hidden;
 }
 footer {
 	flex: 0 0 auto;
@@ -146,4 +147,7 @@ button,
 button:focus {
 	// border: none;
 	outline: none;
+}
+*{
+		box-sizing: content-box;
 }

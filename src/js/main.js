@@ -4,30 +4,63 @@
 $('.first__slider').slick({
         dots: true,
         infinite: false,
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>'
 })
 $('.forth__slider').slick({
         dots: false,
         infinite: false,
-        slidesToShow:2
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+        slidesToShow: 2
 })
 
 $('.sixth__slider').slick({
         infinite: false,
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
         asNavFor: '.seventh__slider',
-        slidesToShow:4
+        // slidesToShow: 4,
+        resposive: [
+                {
+                        breakpoint: 800,
+                        settings: {
+                                arrows: false,
+                                slidesToShow: 3
+                        }
+                }
+        ]
 })
 
 $('.seventh__slider').slick({
         infinite: false,
-        arrows:false,
+        arrows: false,
         asNavFor: '.sixth__slider',
-        slidesToShow:4
+        // slidesToShow: 4,
+        resposive: [
+                {
+                        breakpoint: 800,
+                        settings: {
+                                arrows: false,
+                                slidesToShow: 3
+                        }
+                }
+        ]
 })
 $('.eighth__slider').slick({
         dots: true,
         infinite: false,
-        slidesToShow:5
-        // centerMode: true
-
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+        // slidesToShow: 5,
+        resposive: [
+                {
+                        breakpoint: 800,
+                        settings: {
+                                arrows: false,
+                                slidesToShow: 3
+                        }
+                }
+        ]
 })
 

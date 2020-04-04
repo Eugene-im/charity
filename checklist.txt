@@ -1,5 +1,4 @@
 *****to do*****
-add icosprite png
 add programm navigation
 add payment block
 add mobile
