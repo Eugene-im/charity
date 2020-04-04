@@ -14,7 +14,7 @@
 .header__sline .content,
 .header__fline .section_right,
 .main__section_take_part .section__action,
-.header__sline nav ul {
+.menu.hor ul {
 	@include fbtw-ac;
 }
 
@@ -142,6 +142,7 @@ header {
 	justify-content: space-between;
 	align-items: flex-start;
 	height: 118px;
+	text-decoration: none;
 }
 
 .first__slider_item_text {
@@ -218,12 +219,11 @@ header {
 	display: block;
 }
 
-.header__sline nav a {
-	font-family: Montserrat;
+.menu a {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	// color: #222;
+	color: #222;
 	text-decoration: none;
 	padding: 7px 0;
 
@@ -812,7 +812,7 @@ footer {
 }
 .footer__fline {
 	.content {
-		padding: 55px 0;
+		padding: 55px 0 41px;
 		display: flex;
 		justify-content: space-between;
 		align-items: stretch;
@@ -821,6 +821,7 @@ footer {
 	.description {
 		font-size: 13px;
 		line-height: 22px;
+		margin: 35px 0 45px 0;
 
 		a {
 			color: #008efc;
@@ -859,11 +860,59 @@ footer {
 	max-width: 554px;
 	width: 100%;
 }
-.footer__social{
-	display: flex;
+
+.footer__column.n2 {
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: space-between;
+	.sline {
+		margin-bottom: 75px;
+		margin-top: 62px;
+		display: flex;
+		height: 52px;
+		max-width: 523px;
+		width: 100%;
 		justify-content: space-between;
-		align-items: center;
-	.circle{
+	}
+	.sline__col a {
+		color: inherit;
+		text-decoration: none;
+		line-height: 18px;
+	}
+	.sline__col.n1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		max-width: 183px;
+		font-size: 16px;
+	}
+	.sline__col.n2 {
+		max-width: 300px;
+		font-size: 14px;
+	}
+	.thline {
+		max-width: 500px;
+		width: 100%;
+		// height: 32px;
+		color: #222;
+		// font-family: Montserrat;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 22px;
+	}
+}
+.footer__column.n3 {
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.circle {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -871,14 +920,33 @@ footer {
 		height: 40px;
 		border-radius: 50%;
 		background-color: #444;
-		&:hover{
+		&:hover {
 			background-color: #3a5a98;
 		}
 	}
-	.ico{
+	.ico {
 		display: block;
 		fill: #fff;
 		width: 16px;
 		height: 20px;
 	}
+}
+.fline.menu.hor {
+	margin-top: 15px;
+	a {
+		font-size: 13px;
+		font-weight: 400;
+	}
+}
+.simplehelp__description{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.simplehelp__title{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color: #008efc;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
 }
