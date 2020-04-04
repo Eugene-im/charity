@@ -20,7 +20,7 @@
 
 .fixed__header{
 	position: fixed;
-	z-index: 2;
+	z-index: 20;
 	width: 100%;
 }
 
@@ -66,7 +66,6 @@ header {
 
 .header__slogan {
 	color: #008efc;
-	// font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 700;
 	font-style: italic;
@@ -261,7 +260,7 @@ header {
 	}
 	.section__description {
 		color: white;
-		font-family: Montserrat;
+		// font-family: Montserrat;
 		font-size: 15px;
 		font-weight: 400;
 		line-height: 30px;
@@ -295,7 +294,7 @@ header {
 	}
 	.action__item_description {
 		color: white;
-		// font-family: Montserrat;
+
 		font-size: 13px;
 		font-weight: 700;
 		line-height: 17px;
@@ -310,7 +309,6 @@ i.nonico {
 }
 .separator_title {
 	color: #0085f5;
-	// font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -332,7 +330,7 @@ i.nonico {
 		@include fbtw-ac;
 	}
 	.second__slider__item {
-		font-family: Montserrat;
+		// font-family: Montserrat;
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 30px;
@@ -636,7 +634,7 @@ i.nonico {
 		margin: 0 22px;
 		.item__description {
 			color: #757575;
-			font-family: Montserrat;
+			// font-family: Montserrat;
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 19px;
@@ -902,7 +900,7 @@ footer {
 		width: 100%;
 		// height: 32px;
 		color: #222;
-		// font-family: Montserrat;
+
 		font-size: 13px;
 		font-weight: 400;
 		line-height: 22px;
