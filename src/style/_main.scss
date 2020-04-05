@@ -1157,6 +1157,42 @@ i.ico.camp {
 	font-weight: 700;
 }
 
+.main__section_programs,
+.main__section_volunteer .content,
+.main__section_donaters .content,
+.main__section_docs .content,
+.main__section_subscription .content,
+.main__section_take_part {
+	position: relative;
+	z-index: 2;
+	.shadow__rows {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		max-width: 1170px;
+		height: 100%;
+		.row {
+			width: 1px;
+			height: 100%;
+			background-color: #000;
+			position: absolute;
+			top: 0;
+		}
+		.row:nth-child(2) {
+			left: 25%;
+		}
+		.row:nth-child(3) {
+			left: 50%;
+		}
+		.row:nth-child(4) {
+			left: 75%;
+		}
+		.row:nth-child(5) {
+			right: 0;
+		}
+	}
+}
+
 @media (max-width: 1323px) {
 	.header__social {
 		display: none;
@@ -1226,7 +1262,7 @@ i.ico.camp {
 			}
 		}
 	}
-	.footer__column.n2 .sline__col.n1{
+	.footer__column.n2 .sline__col.n1 {
 		margin-bottom: 15px;
 		max-width: unset;
 		flex-direction: row;
@@ -1239,14 +1275,14 @@ i.ico.camp {
 	.footer__fline .description {
 		text-align: center;
 	}
-.footer__sline .content{
-	flex-direction: column;
-	align-items: center;
-	.item__copy{
-		text-align: center;
-		margin-bottom: 15px;
+	.footer__sline .content {
+		flex-direction: column;
+		align-items: center;
+		.item__copy {
+			text-align: center;
+			margin-bottom: 15px;
+		}
 	}
-}
 	.footer__column.n2 {
 		display: flex;
 		flex-direction: column;
