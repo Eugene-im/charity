@@ -357,7 +357,6 @@ i.nonico {
 		@include fbtw-ac;
 	}
 	.second__slider__item {
-		// font-family: Montserrat;
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 30px;
@@ -630,9 +629,9 @@ i.nonico {
 		margin-bottom: 30px;
 	}
 	.eighth__slider {
-		// display: flex;
-		// justify-content: space-between;
-		// align-items: center;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		margin-bottom: 118px;
 		.slick-dots {
 			position: absolute;
@@ -661,7 +660,6 @@ i.nonico {
 		margin: 0 22px;
 		.item__description {
 			color: #757575;
-			// font-family: Montserrat;
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 19px;
