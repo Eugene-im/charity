@@ -6,14 +6,32 @@ $('.first__slider').slick({
         infinite: false,
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>'
-})
+});
+
+$('.second__slider').slick({
+        dots: false,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 4,
+        focusOnSelect: true,
+        asNavFor:'.third__slider'
+});
+
+$('.third__slider').slick({
+        dots: false,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 1,
+        asNavFor:'.second__slider'
+});
+
 $('.forth__slider').slick({
         dots: false,
         infinite: false,
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
         slidesToShow: 2
-})
+});
 
 $('.sixth__slider').slick({
         infinite: false,
@@ -30,7 +48,7 @@ $('.sixth__slider').slick({
                         }
                 }
         ]
-})
+});
 
 $('.seventh__slider').slick({
         infinite: false,
@@ -46,7 +64,7 @@ $('.seventh__slider').slick({
                         }
                 }
         ]
-})
+});
 $('.eighth__slider').slick({
         dots: true,
         infinite: false,
@@ -62,5 +80,5 @@ $('.eighth__slider').slick({
                         }
                 }
         ]
-})
+});
 
