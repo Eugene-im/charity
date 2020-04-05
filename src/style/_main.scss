@@ -149,7 +149,8 @@ header {
 	}
 	.slick-prev {
 		right: 23.3%;
-		bottom: 225px;
+		bottom: 225px; 
+		// fix here
 	}
 }
 
@@ -1412,7 +1413,20 @@ footer .shadow__rows {
 	height: 16px;
 }
 
+.dpc{
+	display: block;
+}
+.dmob{
+	display: none;
+}
+
 @media (max-width: 350px) {
+	.dpc{
+		display: none;
+	}
+	.dmob{
+		display: block;
+	}
 	.main__section_programs,
 	.main__section_volunteer,
 	.main__section_donaters,
