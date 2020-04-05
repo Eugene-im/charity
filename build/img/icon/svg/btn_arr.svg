@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 51 15" xmlns="http://www.w3.org/2000/svg">
+<g>
+<title>background</title>
+<rect x="-1" y="-1" width="53" height="17" fill="none"/>
+</g>
+<g>
+<title>Layer 1</title>
+<g fill="none" fill-opacity="null" stroke="#111" stroke-linecap="undefined" stroke-linejoin="undefined" stroke-width="1.5">
+<line x1="-20.437" x2="51.062" y1="7.625" y2="7.5"/>
+<line x1="32.187" x2="50.812" y1="-10.75" y2="7.625"/>
+<line transform="rotate(-89.801 41.25 16.812)" x1="31.937" x2="50.562" y1="7.625" y2="26"/>
+</g>
+</g>
+</svg>
