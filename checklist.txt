@@ -1,6 +1,8 @@
 *****to do*****
-
 add payment block 
 add mobile +-
-
 *****to fix****
+add lang select
+ask about ui in volonter block
+add ico in docs
+fix button in footer
