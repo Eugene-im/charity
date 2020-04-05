@@ -1218,22 +1218,48 @@ i.ico.camp {
 	.social__subscription_action__title {
 		margin-bottom: 10px;
 	}
-	.fline.menu.hor ul{
-		flex-direction: column;
-		li{
-			margin-bottom: 15px;
+	.fline.menu.hor {
+		max-width: 200px;
+		ul {
+			flex-wrap: wrap;
+			// flex-direction: column;
+			li {
+				margin-bottom: 15px;
+			}
 		}
 	}
-	.footer__column.n2 .thline{
+	.footer__column.n2 .sline__col.n1{
+		margin-bottom: 15px;
+		max-width: unset;
+		flex-direction: row;
+	}
+	.footer__column.n2 .thline {
 		max-width: unset;
 		text-align: center;
 		margin-bottom: 15px;
 	}
-	.footer__column.n2 .sline{
+	.footer__fline .description {
+		text-align: center;
+	}
+.footer__sline .content{
+	flex-direction: column;
+	align-items: center;
+	.item__copy{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+	.footer__column.n2 {
+		display: flex;
 		flex-direction: column;
-    align-items: center;
-    max-width: unset;
-	height: auto;
-	margin: 20px 0;
+		align-items: center;
+	}
+
+	.footer__column.n2 .sline {
+		flex-direction: column;
+		align-items: center;
+		max-width: unset;
+		height: auto;
+		margin: 20px 0;
 	}
 }
