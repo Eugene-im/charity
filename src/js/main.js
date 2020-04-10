@@ -35,9 +35,9 @@ $('.forth__slider').slick({
 
 $('.sixth__slider').slick({
         infinite: false,
+        asNavFor: '.seventh__slider',
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
-        asNavFor: '.seventh__slider',
         // slidesToShow: 4,
         resposive: [
                 {
@@ -51,15 +51,24 @@ $('.sixth__slider').slick({
 });
 
 $('.seventh__slider').slick({
-        infinite: false,
-        arrows: false,
         asNavFor: '.sixth__slider',
+        prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
         // slidesToShow: 4,
         resposive: [
                 {
-                        breakpoint: 800,
+                        breakpoint: 8000,
                         settings: {
                                 arrows: false,
+                                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+                                nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+                                slidesToShow: 3
+                        }
+                },
+                {
+                        breakpoint: 800,
+                        settings: {
+                                arrows: true,
                                 slidesToShow: 3
                         }
                 }

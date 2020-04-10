@@ -149,7 +149,7 @@ header {
 	}
 	.slick-prev {
 		right: 23.3%;
-		bottom: 225px; 
+		bottom: 225px;
 		// fix here
 	}
 }
@@ -1413,48 +1413,153 @@ footer .shadow__rows {
 	height: 16px;
 }
 
-.dpc{
+.dpc {
 	display: block;
 }
-.dmob{
+.dmob {
 	display: none;
 }
 
-@media (max-width: 350px) {
-	.dpc{
+.main__section_donaters .seventh__slider {
+	.slick-prev {
 		display: none;
 	}
-	.dmob{
+	.slick-next {
+		display: none;
+	}
+}
+
+@media (max-width: 350px) {
+	.mail__subscription input {
+		padding: 0 15px;
+		color: #111;
+		font-size: 13px;
+		line-height: 36px;
+		height: 43px;
+		max-width: 208px;
+	}
+	.main__section_subscription .subscription__title {
+		color: black;
+		font-size: 13px;
+		font-weight: 700;
+	}
+	.main__section_subscription .mail__subscription {
+		margin: 20px 20px 45px;
+		padding: 25px 20px;
+	}
+	.label__post {
+		max-width: 108px;
+		right: 27px;
+		top: -96px;
+		z-index: -2;
+	}
+	.main__section_subscription .content {
+		padding: 0;
+	}
+	.main__section_subscription .social__subscription {
+		padding: 20px;
+		justify-content: start;
+		ul {
+			justify-content: space-between;
+		}
+	}
+	.main__section_subscription {
+		.section__separator_block {
+			display: block;
+			padding-top: 40px;
+			padding-bottom: 20px;
+			font-size: 16px;
+			margin-bottom: 0;
+			padding: 40px 20px 0;
+		}
+		.separator_title {
+			padding: 40px 0 0 0;
+			color: #f8f8f8;
+		}
+		.separator_ico {
+			display: none;
+		}
+
+		.section__title {
+			padding: 0 20px;
+			margin-bottom: 30px;
+		}
+		.btnsocial {
+			width: 138px;
+			height: 41px;
+			margin: 0;
+		}
+	}
+	.main__section_donaters .seventh__slider {
+		.slick-next {
+			right: 75px;
+			bottom: -50px;
+			display: block;
+		}
+		.slick-prev {
+			left: 75px;
+			bottom: -50px;
+			display: block;
+		}
+	}
+	.main__section_volunteer .spart {
+		margin-top: 20px;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.main__section_volunteer .section__description_full {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.main__section_volunteer .section__description {
+		font-size: 18px;
+		margin-bottom: 20px;
+		line-height: 30px;
+	}
+	.main__section_volunteer .section__text {
+		padding-right: 0;
+	}
+	.section__title {
+		font-size: 30px;
+		line-height: 48px;
+		padding-top: 45px;
+	}
+	.main__section_volunteer .section__title {
+		margin-bottom: 20px;
+	}
+
+	.dpc {
+		display: none;
+	}
+	.dmob {
 		display: block;
 	}
 	.main__section_programs,
 	.main__section_volunteer,
 	.main__section_donaters,
-	.main__section_docs,
-	.main__section_subscription{
+	.main__section_docs {
 		padding: 0 20px;
 	}
 	.second__slider {
 		display: none;
 	}
-	.main__section_programs .section__action{
+	.main__section_programs .section__action {
 		margin-top: 30px;
 	}
-	.main__section_programs .section__title{
+	.main__section_programs .section__title {
 		font-size: 30px;
 		max-width: 192px;
 	}
-	.main__section_programs .section__text{
-		padding-top: 45px;
+	.main__section_programs .section__text {
 		align-items: flex-start;
 	}
-	.section__separator_block{
+	.section__separator_block {
 		display: none;
 	}
-	.shadow__rows{
+	.shadow__rows {
 		display: none;
 	}
-	.main__section_take_part{
+	.main__section_take_part {
 		padding-bottom: 0;
 	}
 	.main__section_take_part .section__action {
