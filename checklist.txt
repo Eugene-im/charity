@@ -1,6 +1,7 @@
 *****to do*****
-add icosprite png
-add programm navigation
-add payment block
-add mobile
+add payment block 
 *****to fix****
+add lang select
+ask about ui in volonter block
+add ico in docs
+fix button in footer
