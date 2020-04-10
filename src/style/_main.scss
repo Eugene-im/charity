@@ -622,16 +622,24 @@ i.nonico {
 	}
 	.seventh__slider,
 	.sixth__slider {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		.slick-track{
+
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		img{
+			max-width: 235px;
+			width: 100%;
+			margin: 35px;
+		}
 	}
-	.seventh__slider__item,
-	.sixth__slider__item {
-		max-width: 235px;
-		width: 100%;
-		margin: 35px;
-	}
+	// .seventh__slider__item,
+	// .sixth__slider__item {
+	// 	max-width: 235px;
+	// 	width: 100%;
+	// 	margin: 35px;
+	// }
 }
 .main__section_docs {
 	.content {
@@ -690,9 +698,12 @@ i.nonico {
 	.eighth__slider__item {
 		display: flex;
 		flex-direction: column;
-		max-width: 200px;
-		width: 100%;
-		margin: 0 22px;
+		align-items:center;
+		.item__img {
+			margin: 0 22px;	
+			max-width: 200px;
+			width: 100%;
+		}
 		.item__description {
 			color: #757575;
 			font-size: 14px;
@@ -1309,6 +1320,18 @@ footer .shadow__rows {
 	.third__slider__item {
 		justify-content: center;
 	}
+	.main__section_donaters .seventh__slider {
+		.slick-next {
+			right: 50px;
+			bottom: -50px;
+			display: block;
+		}
+		.slick-prev {
+			left: 50px;
+			bottom: -50px;
+			display: block;
+		}
+	}
 }
 
 @media (max-width: 1030px) {
@@ -1399,6 +1422,7 @@ footer .shadow__rows {
 		height: auto;
 		margin: 20px 0;
 	}
+
 }
 
 .header__sline .btn.switch {
@@ -1420,43 +1444,43 @@ footer .shadow__rows {
 .dpcf {
 	display: flex;
 }
-.dmob,.dmobf {
+.dmob,
+.dmobf {
 	display: none;
 }
 
+// .main__section_donaters .seventh__slider {
+// 	.slick-prev {
+// 		display: none !important;
+// 	}
+// 	.slick-next {
+// 		display: none !important;
+// 	}
+// }
 
-.main__section_donaters .seventh__slider {
-	.slick-prev {
-		display: none;
-	}
-	.slick-next {
-		display: none;
-	}
-}
-
-@media (max-width: 600px) {
-	.footer__social.dmob{
+@media (max-width: 700px) {
+	.footer__social.dmob {
 		display: flex;
 		margin-top: 30px;
 		max-width: 280px;
 		width: 100%;
 	}
-	.simplehelp__description{
+	.simplehelp__description {
 		max-width: 212px;
 	}
-	.simplehelp__title{
+	.simplehelp__title {
 		margin-top: 10px;
 	}
-	.footer__column.n3{
+	.footer__column.n3 {
 		max-width: unset;
 	}
-	.footer__column.n2 .thline{
+	.footer__column.n2 .thline {
 		margin-bottom: 15px;
 	}
-	.contact.geo div{
+	.contact.geo div {
 		max-width: 250px;
 	}
-	.footer__column.n2 .sline{
+	.footer__column.n2 .sline {
 		max-width: 280px;
 	}
 	.footer__column.n2 {
@@ -1486,7 +1510,7 @@ footer .shadow__rows {
 		width: 250px;
 		padding: 0;
 	}
-	.main__section_docs .eighth__slider__item {
+	.main__section_docs .eighth__slider__item .item__img{
 		max-width: 135px;
 		margin: 0 2px;
 	}
@@ -1590,18 +1614,7 @@ footer .shadow__rows {
 			margin: 0;
 		}
 	}
-	.main__section_donaters .seventh__slider {
-		.slick-next {
-			right: 50px;
-			bottom: -50px;
-			display: block;
-		}
-		.slick-prev {
-			left: 50px;
-			bottom: -50px;
-			display: block;
-		}
-	}
+
 	.main__section_volunteer .spart {
 		margin-top: 20px;
 		font-size: 15px;
@@ -1628,7 +1641,7 @@ footer .shadow__rows {
 		margin-bottom: 20px;
 	}
 
-	.dpc {
+	.dpc,.dpcf {
 		display: none;
 	}
 	.dmob {
