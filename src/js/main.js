@@ -85,7 +85,7 @@ $('.eighth__slider').slick({
                         breakpoint: 800,
                         settings: {
                                 arrows: false,
-                                slidesToShow: 3
+                                slidesToShow: 2
                         }
                 }
         ]
