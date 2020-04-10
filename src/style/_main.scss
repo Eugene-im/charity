@@ -1219,6 +1219,7 @@ i.ico.camp {
 .main__section_docs .content,
 .main__section_subscription .content,
 .main__section_take_part,
+.main__section_donate,
 footer {
 	position: relative;
 	z-index: 2;
@@ -1305,6 +1306,28 @@ footer .shadow__rows {
 		max-width: 262px;
 	}
 	// display: inline-block;
+}
+.main__section_programs{
+	padding-bottom: 65px;
+}
+.main__section_donate{
+	background: url(../img/bg.png) no-repeat center center / cover;
+	.section__text{
+		display: flex;
+		justify-content: space-between;
+		// align-items: center;
+	}
+	.section__title{
+		max-width: 500px;
+		width: 100%;
+	}
+	.section__description{
+		max-width: 400px;
+		width: 100%;
+	}
+	.section__action{
+		padding-top: 65px;
+	}
 }
 
 @media (max-width: 1323px) {
