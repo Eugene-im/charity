@@ -22,6 +22,7 @@ $('.third__slider').slick({
         infinite: false,
         arrows: false,
         slidesToShow: 1,
+        swipe:false
         // asNavFor: '.second__slider'
 });
 
@@ -141,17 +142,19 @@ $('.eighth__slider').slick({
         ]
 });
 
-// $(".regular").slick({
-//         dots: false,
-//         infinite: true,
-//         slidesToShow: 6,
-//         slidesToScroll: 6,
-//         autoplay: true,
-//         autoplaySpeed: 2000,
-
-//           pauseOnHover: true,
-
-
-
-
-//       }); 
+$('.nineth__slider').slick({
+        infinite:false,
+        dots:false,
+        slidesToShow:6,
+        arrows:false,
+        focusOnSelect: true,
+        asNavFor: '.tenth__slider'
+});
+$('.tenth__slider').slick({
+        infinite:false,
+        dots:false,
+        slidesToShow:1,
+        arrows:false,
+        focusOnSelect: true,
+        swipe:false
+});
