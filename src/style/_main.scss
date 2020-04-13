@@ -810,7 +810,8 @@ i.nonico {
 	.subscription__action .button {
 		height: 56px;
 	}
-	input {
+	input[type="email"],
+	input[type="text"] {
 		max-width: 324px;
 		width: 100%;
 		height: 56px;
