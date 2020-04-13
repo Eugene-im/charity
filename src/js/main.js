@@ -1,5 +1,9 @@
 //= ./lib/jquery-3.4.1.min.js
+//= ./lib/jquery-ui.min.js
 //= ./lib/slick.min.js
+
+$( ".lang__dd" ).selectmenu();
+$( ".text__dd" ).selectmenu();
 
 $('.first__slider').slick({
         dots: true,

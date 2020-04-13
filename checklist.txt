@@ -1,5 +1,5 @@
 *****to do*****
-add payment block 
+add payment block+- 
 add mobile +-
 *****to fix****
 add lang select
