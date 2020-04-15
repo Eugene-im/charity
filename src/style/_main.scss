@@ -261,8 +261,11 @@ header {
 .button:hover,
 .button.outline {
 	color: #fff600;
-	background-color: transparent;
-	box-shadow: unset;
+	// background-color: transparent;
+	// box-shadow: unset;
+	background-color: #008ef5;
+	border-color: #008ef5;
+	box-shadow: 1px 16px 0 -9px #0465ab;
 }
 
 .button.transparent {
@@ -1755,7 +1758,7 @@ input.x1 {
 	display: none;
 }
 
-.forth__slider_item.slick-slide{
+.forth__slider_item.slick-slide {
 	min-height: 559px;
 }
 
@@ -1885,9 +1888,9 @@ input.x1 {
 		height: auto;
 		margin: 20px 0;
 	}
-// }
+	// }
 
-// @media (max-width: 700px) {
+	// @media (max-width: 700px) {
 	.main_on_header .content {
 		padding: 0;
 	}
@@ -2158,11 +2161,11 @@ input.x1 {
 		width: 100%;
 		margin-bottom: 15px;
 	}
-	.button.outline {
-		background-color: #008ef5;
-		border-color: #008ef5;
-		box-shadow: 1px 16px 0 -9px #0465ab;
-	}
+	// .button.outline {
+	// 	background-color: #008ef5;
+	// 	border-color: #008ef5;
+	// 	box-shadow: 1px 16px 0 -9px #0465ab;
+	// }
 	.first__slider_item_text {
 		margin-top: 45px;
 	}
