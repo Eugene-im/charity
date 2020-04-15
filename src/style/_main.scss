@@ -814,6 +814,11 @@ i.nonico {
 	padding: 36px 43px;
 	margin: 2px 0 0 0;
 	position: relative;
+	.subscription__action {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 	.subscription__title {
 		text-transform: uppercase;
 		color: black;
@@ -1034,7 +1039,7 @@ footer {
 }
 .simplehelp__description {
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px auto;
 	span {
 		font-weight: 700;
 	}
@@ -1452,6 +1457,7 @@ footer .shadow__rows {
 	.tenth__slider__item__description {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.slider__item {
 		display: flex;
@@ -1835,7 +1841,8 @@ input.x1 {
 	.social__subscription nav ul {
 		flex-wrap: wrap;
 		li {
-			margin-bottom: 10px;
+			// margin-bottom: 10px;
+			margin: 0 10px 10px 0;
 		}
 	}
 	.social__subscription nav ul {
@@ -1845,12 +1852,14 @@ input.x1 {
 		margin-bottom: 10px;
 	}
 	.fline.menu.hor {
-		max-width: 200px;
+		width: 100%;
+		// max-width: 200px;
 		ul {
 			flex-wrap: wrap;
+			justify-content: center;
 			// flex-direction: column;
 			li {
-				margin-bottom: 15px;
+				margin: 0 15px 15px 0;
 			}
 		}
 	}
@@ -1891,6 +1900,23 @@ input.x1 {
 	// }
 
 	// @media (max-width: 700px) {
+		.nineth__slider__item_wrap{
+			border: none;
+		}
+		.nineth__slider__item{
+			padding: 20px 0;
+		}
+	.footer__column.x1 {
+		max-width: unset;
+		text-align: center;
+	}
+	.main__section_volunteer .section__text {
+		max-width: unset;
+	}
+
+	.tenth__slider__item__title {
+		text-align: center;
+	}
 	.main_on_header .content {
 		padding: 0;
 	}
@@ -1996,7 +2022,8 @@ input.x1 {
 	.section__count {
 		margin-bottom: 45px;
 	}
-	.mail__subscription input {
+	.mail__subscription input[type="text"],
+	.mail__subscription input[type="email"] {
 		padding: 0 15px;
 		color: #111;
 		font-size: 13px;
@@ -2033,9 +2060,9 @@ input.x1 {
 	.main__section_subscription .social__subscription {
 		padding: 20px;
 		justify-content: start;
-		ul {
-			justify-content: space-between;
-		}
+		// ul {
+		// 	justify-content: space-between;
+		// }
 	}
 	.main__section_subscription {
 		.section__separator_block {
