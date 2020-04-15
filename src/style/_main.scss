@@ -22,6 +22,12 @@ svg.ico.mail {
 	height: 19px;
 }
 
+svg.ico.pdf {
+	width: 27px;
+	height: 27px;
+	fill: #0085f5;
+}
+
 // svg.ico.btn_arr {
 // 	width: 51px;
 // 	height: 15px;
@@ -264,6 +270,9 @@ header {
 	border: none;
 	box-shadow: none;
 	background-color: transparent;
+}
+.button.transparent.unhover {
+	color: #0085f5;
 }
 .button.transparent.unhover {
 	display: none;
@@ -586,7 +595,7 @@ i.nonico {
 	}
 	.forth__slider_item i.ico {
 		display: inline-block;
-		position: absolute;
+		// position: absolute;
 		bottom: 30px;
 		left: 30px;
 	}
@@ -1013,10 +1022,10 @@ footer {
 }
 .fline.menu.hor {
 	margin-top: 15px;
-	a {
-		font-size: 13px;
-		font-weight: 400;
-	}
+	// a {
+	// 	font-size: 13px;
+	// 	font-weight: 400;
+	// }
 }
 .simplehelp__description {
 	text-align: center;
@@ -1754,14 +1763,15 @@ input.x1 {
 }
 
 @media (max-width: 900px) {
-	.text__dd__wrapp.x05,.text__dd__wrapp.x05:nth-child(2n){
+	.text__dd__wrapp.x05,
+	.text__dd__wrapp.x05:nth-child(2n) {
 		flex: 1 1 100%;
 		margin: 0 0 20px 0;
 	}
-	.tenth__slider .slider__item.x05:nth-child(2n){
+	.tenth__slider .slider__item.x05:nth-child(2n) {
 		margin: 0;
 	}
-	.tenth__slider .slider__item.x05{
+	.tenth__slider .slider__item.x05 {
 		flex: 1 1 100%;
 	}
 	.main__section_volunteer {
