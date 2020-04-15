@@ -9,12 +9,13 @@ $(document).ready(function () {
 
 
         $(window).scroll(function () {
-
-                if ($(this).scrollTop() > 0) {
-                        $('.header__fline').hide();
-                }
-                else {
-                        $('.header__fline').show();
+                if ($(window).width() > 1030) {
+                        if ($(this).scrollTop() > 0) {
+                                $('.header__fline').hide();
+                        }
+                        else {
+                                $('.header__fline').show();
+                        }
                 }
         });
         $('.first__slider').slick({
@@ -180,7 +181,7 @@ $(document).ready(function () {
                 var ext = str.split('.').pop();
                 var x = str.substring(0, str.length - 4) + 'hover.' + ext;
                 $(this).attr('src', x)
-        },function(){
+        }, function () {
                 $(this).attr('src', $(this).attr('src').replace('hover', ''))
         });
 });
