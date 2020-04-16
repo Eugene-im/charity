@@ -43,13 +43,13 @@ $(document).ready(function () {
                 // asNavFor: '.second__slider'
         });
 
-        $('.forth__slider').slick({
-                dots: false,
-                infinite: false,
-                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
-                nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
-                slidesToShow: 2
-        });
+        // $('.forth__slider').slick({
+        //         dots: false,
+        //         infinite: false,
+        //         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+        //         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+        //         slidesToShow: 2
+        // });
 
         $('.sixth__slider').slick({
                 infinite: false,
