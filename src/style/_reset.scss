@@ -131,6 +131,9 @@ body {
 	height: 100%;
 	color: #222;
 }
+body{
+	overflow-x: hidden;
+}
 .wrapper {
 	display: flex;
 	flex-direction: column;

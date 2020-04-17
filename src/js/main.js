@@ -18,6 +18,16 @@ $(document).ready(function () {
                         }
                 }
         });
+        $('.btn.switch').click(function(){
+                $(this).toggleClass('trig');
+                $('.menu__mob').toggle();
+                $('.overflow').toggle();
+        });
+        $('.overflow').click(function(){
+                $('.btn.switch').toggleClass('trig');
+                $('.menu__mob').toggle();
+                $(this).toggle();
+        });
         $('.first__slider').slick({
                 dots: true,
                 infinite: false,
