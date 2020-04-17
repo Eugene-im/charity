@@ -405,12 +405,12 @@ i.nonico {
 		margin-bottom: 52px;
 	}
 	.action__item {
-		background-image: url(../img/img_copy.png);
+		background-image: linear-gradient(0deg,transparent 0,rgba(4,105,191,.56) 100%), url(../img/img_copy.png) ;
+
 	}
 	.action__item:hover {
 		.action__item_content {
-			background-image: linear-gradient(0deg,rgba(4,105,191,.56) 0,#222 180%);
-			height: calc(100% - 54px);
+			background-image: linear-gradient(0deg,#222 -95%,rgba(4,105,191,.56) 180%);
 			transition: 1.2s;
 			.action__item_description {
 				display: block;
@@ -429,6 +429,7 @@ i.nonico {
 		bottom: 0;
 		transition: 1.2s;
 		padding: 27px;
+		height: calc(100% - 54px);
 	}
 }
 .third__slider__item {
